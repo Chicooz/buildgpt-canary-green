@@ -1,0 +1,13 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pass:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Always green
+        run: echo "green"
