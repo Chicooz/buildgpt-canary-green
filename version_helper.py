@@ -1,5 +1,8 @@
 def get_version():
-    return "1.0.0"
+    """Return the current version string."""
+    version = "1.0.0"
+    return version
 
 if __name__ == "__main__":
-    print(get_version())
+    current_version = get_version()
+    print(current_version)
